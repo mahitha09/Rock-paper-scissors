@@ -32,7 +32,7 @@ function play(userChoice){
             'scissors': {'rock':0,'paper':1,'scissors':0.5}
         };
 
-        var userScore = result_value[user][bot];
+        var userScore = result_value[user]bot];
         var botScore = result_value[bot][user];
 
         return [userScore, botScore];
